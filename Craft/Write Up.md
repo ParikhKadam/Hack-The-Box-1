@@ -176,7 +176,7 @@ vault write ssh/roles/root_otp \
     default_user=root \
     cidr_list=0.0.0.0/0
 ```
-It said enable ssh engine then create otp role for root you can read this
+It said enable ssh engine then create otp role for root you can read [this](https://www.vaultproject.io/docs/secrets/ssh)
 
 We have .vault token so that we can login to the vault then create otp role for root
 
